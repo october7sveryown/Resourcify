@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorStatus"
+    android:orientation="vertical">
+
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+</android.support.v4.view.ViewPager>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="120dp"
+       android:elevation="12dp"
+       android:background="#fff">
+    <com.pixelcan.inkpageindicator.InkPageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:dotDiameter="10dp"
+        app:dotGap="10dp"
+        app:animationDuration="320"
+        app:pageIndicatorColor="@color/black"
+        app:currentPageIndicatorColor="@color/colorAction"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Features"
+    android:text="App Features"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+
+    android:layout_marginTop="14dp"
+    android:textColor="#000"
+    android:textSize="22sp"/>
+
+   </FrameLayout>
+
+
+
+</RelativeLayout>

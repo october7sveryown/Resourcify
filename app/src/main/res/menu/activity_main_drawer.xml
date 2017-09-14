@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="#3498db">
+
+    <group android:checkableBehavior="single" android:id="@+id/group1" android:menuCategory="container">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home1"
+            android:title="Home"
+
+            />
+
+    <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_action_info"
+            android:title="About app"
+
+            />
+
+
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_action_edit"
+            android:title="Change password"
+
+            />
+
+      <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Logout"
+            />
+
+    </group>
+</menu>

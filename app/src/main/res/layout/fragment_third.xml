@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.resourcify.first">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorStatus"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="Enrollment"
+            android:layout_margin="2dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/enroll"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="@drawable/database"
+            android:layout_above="@+id/enroll"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Make sure you are enrolled in our database.We do not allow trespassing.Enrolled?Then login here."
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:id="@+id/descenroll"
+            android:layout_below="@+id/enroll"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="LOGIN"
+        android:background="#fff"
+        android:elevation="8dp"
+        android:textSize="16sp"
+        android:layout_gravity="right|bottom"
+        android:textColor="#000"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/loginclick2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</FrameLayout>

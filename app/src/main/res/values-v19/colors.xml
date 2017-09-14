@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAction">#F44336</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorAccent">#2cc36b</color>
+
+    <color name="myColor">#2196f3</color>
+    <color name="colorStatus">#D32F2F</color>
+    <color name="foreground_material_light">#020202</color>
+    <color name="primary_text_material_light">#212121</color>
+    <color name="colorBg">#FFEEDE</color>
+    <color name="black">#090909</color>
+    <color name="black1">#040404</color>
+</resources>

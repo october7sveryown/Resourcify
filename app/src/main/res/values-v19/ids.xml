@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ic_drawer" type="id">@+id/ic_drawer</item>
+</resources>

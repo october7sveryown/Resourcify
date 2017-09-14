@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/colorAction">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Resourcify"
+            android:id="@+id/textView4"
+            android:textSize="30sp"
+
+            android:layout_above="@+id/frameLayout"
+            android:layout_centerHorizontal="true" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_margin="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/frameLayout">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText1"
+                    android:textSize="18sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="60dp"
+                    android:hint="Username"
+                    android:textColorHint="@color/colorSecondaryText"
+                    android:layout_gravity="center_horizontal|top" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:textSize="18sp"
+
+                    android:hint="Password"
+                    android:textColorHint="@color/colorSecondaryText"
+                    android:id="@+id/editText2"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_below="@+id/editText1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="36dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Login"
+                    android:elevation="12dp"
+                    android:textSize="18sp"
+                    android:background="@color/colorStatus"
+                    android:id="@+id/buttonLog"
+                    android:textAllCaps="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/blackboard"
+            android:layout_above="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Forgot Password?"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/forgot"
+            android:layout_below="@+id/frameLayout"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
+
+
